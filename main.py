@@ -11,7 +11,7 @@ G_TurnType = ""
 G_Size = int(input("Enter Grid Size : "))
 GD.Initialize_Grid(G_Size)
 
-#Get User Input
+#Get User Input on values
 while Lg.Validation(G_Row,G_Column,G_Turn) == True :
     G_UInput = input("Enter your position :: row,column :- ")
     G_Row = int(G_UInput.split(',')[0])
