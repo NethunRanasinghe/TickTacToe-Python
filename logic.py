@@ -28,7 +28,6 @@ def Win_Logic(DL,DR,DT,DB,R_V,C_V):
                 S_Count_H += 1
                 if(S_Count_H == (len(GD.Grid) - 1)):
                     win = 1
-                    print("Horizontal win")
             else:
                 break
     
